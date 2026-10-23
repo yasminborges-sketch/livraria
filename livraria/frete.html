@@ -1,0 +1,18 @@
+
+<div class="caixa-frete">
+    <h3>Calcular Frete & Endereço de Entrega</h3>
+    <p>Digite seu CEP para consultar o endereço e o valor do envio:</p>
+
+    <div class="grupo-input">
+        <input type="text" id="cep-input" placeholder="Digite o CEP (ex: 13186000)" maxlength="9">
+        <button id="btn-buscar-cep" onclick="consultarFrete()">Calcular Frete</button>
+    </div>
+    <div id="mensagem-status" class="status-msg"></div>
+
+    <div id="resultado-frete" class="resultado-box" style="display: none;">
+        <p><strong>Endereço de Entrega:</strong> <span id="info-endereco"></span></p>
+        <p><strong>Cidade/UF:</strong> <span id="info-cidade"></span></p>
+        <p><strong>Prazo Estimado:</strong> <span id="info-prazo">3 a 5 dias úteis</span></p>
+        <p><strong>Valor do Frete:</strong> <span id="info-valor" class="valor-destaque">R$ 12,90</span></p>
+    </div>
+</div>

@@ -1,0 +1,71 @@
+.caixa-frete {
+    background: #ffffff;
+    border: 1px solid #e6e2da;
+    border-radius: 8px;
+    padding: 25px;
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.grupo-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.grupo-input input {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.grupo-input button {
+    background: #222222;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.grupo-input button:hover {
+    opacity: 0.9;
+}
+
+.status-msg {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.status-msg.erro {
+    color: #c62828;
+    background: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.status-msg.carregando {
+    color: #1565c0;
+}
+
+.resultado-box {
+    margin-top: 20px;
+    background: #faf9f6;
+    border-left: 4px solid #9a7b38;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.resultado-box p {
+    margin-bottom: 8px;
+    font-size: 0.92rem;
+}
+
+.valor-destaque {
+    color: #2e7d32;
+    font-weight: bold;
+}
